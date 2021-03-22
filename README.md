@@ -1,8 +1,11 @@
 # nodeMCU-devkit
 
 ## Sobre o dispositivo
+
 Dispositivo: nodemcu devkit
+
 Capacidade: 4MB
+
 
 ## Como configurar
 - Gravar o firmware do NodeMCU  (http://nodemcu-build.com/). Esse firmware utiliza a linguagem Lua.
