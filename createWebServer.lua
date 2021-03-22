@@ -1,5 +1,3 @@
--- Creating Web Server
---
 -- This script create a Web Server which has the function to turn ON and turn OFF a led (GPIO = 4)
 --
 -- Gabriel Richter <gabrielrih@gmail.com>

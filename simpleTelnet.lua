@@ -1,4 +1,4 @@
--- Telnet Simples
+-- Simple telnet
 -- Reference: https://github.com/nodemcu/nodemcu-firmware
 
 s=net.createServer(net.TCP, 180)

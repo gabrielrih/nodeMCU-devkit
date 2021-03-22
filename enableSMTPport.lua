@@ -1,7 +1,5 @@
 -- Habilita a porta 25 e retorna um OK ao cliente
 --
---
---
 -- Gabriel Richter
 -- 2016-03-11
 

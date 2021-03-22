@@ -1,6 +1,4 @@
--- Imprime informações de espaço
--- de armazenamento
---
+-- Imprime informações de espaço de armazenamento
 -- Gabriel Richter <gabrielrih@gmail.com>
 -- 2016-04-14
 

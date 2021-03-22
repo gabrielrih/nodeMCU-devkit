@@ -1,5 +1,4 @@
 -- Pisca LED interno
---
 -- Gabriel Richter <gabrielrih@gmail.com>
 -- 2016-04-14
 

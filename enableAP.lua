@@ -1,11 +1,10 @@
--- Enable Access Point
-
+-- Enable Access Point (It creates a WIFI network)
 -- Set AP mode
 wifi.setmode(wifi.SOFTAP)
 
 cfg={}
-cfg.ssid="NodeMCUNetwork"
-cfg.pwd="123asd.ASD"
+cfg.ssid="NodeMCUNetwork" -- SSID name
+cfg.pwd="123asd.ASD" -- Password to connect
 cfg.auth=AUTH_WPA2_PSK
 cfg.channel=11
 wifi.ap.config(cfg)

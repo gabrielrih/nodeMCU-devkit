@@ -1,17 +1,15 @@
--- Connect to OpenWRTMaster wi-fi
--- 
+-- Connect to a WI-FI network
+--
 -- Gabriel Richter <gabrielrih@gmail.com>
 -- Created on 2016-03-30
 -- Modified on 2017-03-22
 
 -- Variables
-ssid = "OpenWrtMaster"
-pass = "a6aa406a7e"
+ssid = "ssid-name" -- Exemplo, "InternetJoaozinho"
+pass = "wifi-password"
 
--- Set station mode
-wifi.setmode(wifi.STATION)
--- Connect to AP
-wifi.sta.config(ssid, pass)
+wifi.setmode(wifi.STATION) -- Set station mode
+wifi.sta.config(ssid, pass) -- Connect to AP
 
 tmr.alarm(0,1000,1, function()
 
